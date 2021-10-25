@@ -1,16 +1,27 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+h1.header {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Helvetica';
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+p.header {
+  font-size: 1.1em;
+  font-family: 'Helvetica';
+  text-align: center;
 }
-
-* {
-  box-sizing: border-box;
+.button-switch {
+  display: flex;
+  justify-content: center;
+  font-family: 'Helvetica';
+}
+.contentArea-0-2-8 > textarea{
+  height: 80vh;
+}
+.contentArea-0-2-18 > textarea{
+  height: 80vh;
+}
+.footer-page{
+  text-align: center;
+  font-family: 'Helvetica';
+  color: gray;
+  font-size: small;
 }
